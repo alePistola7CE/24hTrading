@@ -5,10 +5,12 @@
 
   //theme support
   function wp_theme_setup(){
+    //Image support for the theme
+    add_theme_support( 'post-thumbnails' );
+
     //nav Menus
     register_nav_menus(array(
       'primary' => __('Primary Menu', 'thename'),
-
     ));
   }
 
