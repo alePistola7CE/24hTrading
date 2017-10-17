@@ -49,7 +49,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="first-slide" src="wp-content/themes/24hTrading/img/trading.jpg" alt="First slide">
+          <img class="first-slide" src="wp-content/uploads/statiche/trading.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption d-md-block text-left">
               <h1>Cos'è 24hTrading</h1>
@@ -59,7 +59,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="second-slide" src="wp-content/themes/24hTrading/img/grafici.jpg" style="opacity:0.40;" alt="Third slide">
+          <img class="second-slide" src="wp-content/uploads/statiche/grafici.jpg" style="opacity:0.40;" alt="Third slide">
           <div class="container">
             <div class="carousel-caption d-md-block text-right">
               <h1>Cos'è il trading online?</h1>
@@ -69,7 +69,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="third-slide" src="wp-content/themes/24hTrading/img/busman.jpg" style="opacity:0.60;" alt="Second slide">
+          <img class="third-slide" src="wp-content/uploads/statiche/busman.jpg" style="opacity:0.60;" alt="Second slide">
           <div class="container">
             <div class="carousel-caption d-md-block">
               <h1>Come iniziare adesso</h1>
@@ -99,19 +99,19 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="rounded-circle" src="wp-content/themes/24hTrading/img/startup.jpg" alt="Generic placeholder image" width="140" height="140">
+          <img class="rounded-circle" src="wp-content/uploads/statiche/startup.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Strategie</h2>
           <p>Prima di aprire un conto di trading sarebbe bene decidere quali obiettivi si vogliono ottenere col trading e quali rischi si è disposti a correre. Guadagnare 50 euro al giorno (che fanno comunque 1.500 "eurini" al mese…) oppure trasformare questa attività in una vera e propria professione? E che capitale si può rischiare di perdere?</p>
           <p><a class="btn btn-secondary" href="#" role="button">Strategie &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="rounded-circle" src="wp-content/themes/24hTrading/img/uomo.jpg" alt="Generic placeholder image" width="140" height="140">
+          <img class="rounded-circle" src="wp-content/uploads/statiche/uomo.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Affiliazioni</h2>
           <p>In pratica questo sistema prevede che chiunque possa diventare un rivenditore dei prodotti (insomma: un affiliato), percependo così un compenso in denaro su ogni vendita effettuata grazie a lui. In genere per diventare affiliato basta semplicemente iscriversi a un programma di affiliazione, prelevare i link e i banner che sponsorizzano i prodotti e inserirli nel proprio sito internet.</p>
           <p><a class="btn btn-secondary" href="#" role="button">Unisciti a noi &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="rounded-circle" src="wp-content/themes/24hTrading/img/bitcoin.jpg" alt="Generic placeholder image" width="140" height="140">
+          <img class="rounded-circle" src="wp-content/uploads/statiche/bitcoin.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Criptovalute</h2>
           <p>Una criptovaluta (o crittovaluta o criptomoneta) è una valuta paritaria, decentralizzata digitale la cui implementazione si basa sui principi della crittografia per convalidare le transazioni e la generazione di moneta in sé. Come ogni valuta digitale, consente di effettuare pagamenti online in maniera sicura.</p>
           <p><a class="btn btn-secondary" href="#" role="button">Altro su criptovalute &raquo;</a></p>

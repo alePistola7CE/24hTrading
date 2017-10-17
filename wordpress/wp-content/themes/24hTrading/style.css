@@ -147,6 +147,11 @@ li a:hover{
   color: #fff;
 }
 
+.dropdown-menu {
+  background-color: #343a40;
+  color:rgba(255,255,255,.5);
+}
+
 /* FEATURETTE STYLE */
 
 .meta-data-post{
@@ -166,7 +171,7 @@ li a:hover{
   margin-top: 30px;
 }
 
-.lead + p {
+.col-md-8 > p {
   color: #5a5a5a;
   box-sizing: inherit;
   margin-top: 10px;
@@ -199,7 +204,7 @@ input[type="text"], textarea{
   padding: 5px 10px 5px 10px
 }
 
-input[type="submit"]:focus, textarea:focus {
+input[type="submit"]:focus, textarea:focus, input[type="text"]:focus, input[type="submit"]:hover {
   border-radius: 20px;
   box-shadow: 0px 3px 10px #ccc;
   outline:none;
@@ -211,4 +216,32 @@ input[type="submit"]{
   padding: 5px 10px 5px 10px;
   color: black;
   border: 1px solid #ccc;
+}
+
+@media screen and (max-width:500px){
+  label, input[type="text"], textarea, input[type="submit"]{
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+  }
+  input[type="text"]{
+    width: 75%;
+    margin-bottom: 20px;
+  }
+  input[type="submit"]{
+    width: 50%;
+    margin-top:55px;
+  }
+  textarea{
+    width: 90%;
+  }
+  .comment-notes{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .comment-reply-title{
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
 }
