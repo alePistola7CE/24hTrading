@@ -177,7 +177,7 @@ li a:hover{
 
 .featurette-heading > a:hover{
   text-decoration: none;
-  color: color: #007bff;
+  color: #007bff;
 }
 
 .thumb img{
@@ -185,4 +185,30 @@ li a:hover{
   height: auto;
   margin-top: 30px;
   border-radius: 15px;
+}
+
+/* COMMENTS SECTION STYLE */
+p.comment-form-comment > label{
+  vertical-align: top;
+}
+
+input[type="text"], textarea{
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-left: 10px;
+  padding: 5px 10px 5px 10px
+}
+
+input[type="submit"]:focus, textarea:focus {
+  border-radius: 20px;
+  box-shadow: 0px 3px 10px #ccc;
+  outline:none;
+}
+
+input[type="submit"]{
+  margin-top: 10px;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+  color: black;
+  border: 1px solid #ccc;
 }
