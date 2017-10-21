@@ -8,7 +8,7 @@
         <?php while(have_posts()) : the_post(); ?>
 
       <div class="row featurette">
-        <div class="col-md-8">
+        <div class="col-md-9">
           <h2 class="featurette-heading">
              <?php the_title(); ?>
           </h2>
@@ -18,10 +18,6 @@
               <?php the_author(); ?>
             </a>
           </span>
-          <p class="lead"> <?php the_content(); ?> </p>
-        </div>
-
-        <div class="col-md-4">
           <?php if(has_post_thumbnail()) : ?>
             <div class="thumb">
               <?php the_post_thumbnail(); ?>
@@ -29,6 +25,18 @@
             <?php else: ?>
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x450/auto" alt="Banner">
           <?php endif; ?>
+          <p class="lead"> <?php the_content(); ?> </p>
+        </div>
+
+
+
+        <div class="col-md-3">
+          <div class="contenitore_sidebar">
+            <?php if(is_active_sidebar('sidebar')): ?>
+              <?php dynamic_sidebar('sidebar'); ?>
+            <?php endif; ?>
+            <?php [widget] ?>
+          </div>
         </div>
       </div>
 
