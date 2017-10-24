@@ -66,6 +66,19 @@ body {
   font-weight: normal;
   margin-top: 25px;
 }
+
+/* h2 title for smartphone view */
+@media screen and (max-width: 500px){
+  .marketing h2{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+}
+
+
+
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
@@ -115,7 +128,7 @@ body {
 
 /* NAV BAR */
 .brand{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .collapse{
@@ -150,6 +163,28 @@ li a:hover{
 .dropdown-menu {
   background-color: #343a40;
   color:rgba(255,255,255,.5);
+}
+
+.logo-img{
+  height: 40px;
+  margin-left: 20px;
+}
+
+/* smartphone view */
+@media screen and (max-width: 500px){
+  .logo-img{
+    display: none;
+  }
+
+  .brand{
+    text-align: center;
+    margin: auto;
+  }
+
+  .navbar{
+    text-align: center;
+  }
+
 }
 
 /* FEATURETTE STYLE */
@@ -209,8 +244,16 @@ li a:hover{
 .thumb img{
   width: 100%;
   height: auto;
-  margin-top: 30px;
+  margin-top: 90px;
   border-radius: 15px;
+}
+
+/* thumb img for smartphone view */
+@media screen and (max-width: 500px){
+.thumb img{
+  margin-top: 30px;
+}
+
 }
 
 /* COMMENTS SECTION STYLE */
