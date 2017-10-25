@@ -194,6 +194,7 @@ li a:hover{
   font-style: italic;
   font-weight: lighter;
   color: #474747;
+  display: block;
 }
 
 .meta-data-post > a{
@@ -232,7 +233,7 @@ li a:hover{
   margin: 40px auto auto auto;
 }
 
-.col-md-9 > p:nth-last-child(1), .col-md-9 > p:nth-last-child(2){
+.col-md-9 > p:nth-last-child(1)/*, .col-md-9 > p:nth-last-child(2)*/{
   display: none;
 }
 
@@ -254,6 +255,11 @@ li a:hover{
   margin-top: 30px;
 }
 
+}
+
+/* style for the chart in page.php */
+iframe {
+  margin-top: 15px;
 }
 
 /* COMMENTS SECTION STYLE */
@@ -363,7 +369,7 @@ input[type="submit"]{
 
 .contenitore_sidebar > div {
   margin: auto;
-  left: -30px;
+  margin-bottom: 45px;
 }
 
 .widgettitle{
@@ -380,8 +386,9 @@ input[type="submit"]{
   font-weight: 400;
 }
 
-.tagcloud > a{
-  padding-right: .5rem;
-  padding-left: .5rem;
-  text-transform: none;
+
+@media (min-width: 768px){
+  .col-md-4 {
+    max-width: none;
+  }
 }

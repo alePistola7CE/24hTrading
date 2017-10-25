@@ -8,7 +8,7 @@
         <?php while(have_posts()) : the_post(); ?>
 
       <div class="row featurette">
-        <div class="col-md-9">
+        <div class="col-md-8">
           <h2 class="featurette-heading">
              <?php the_title(); ?>
           </h2>
@@ -30,12 +30,11 @@
 
 
 
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="contenitore_sidebar">
             <?php if(is_active_sidebar('sidebar')): ?>
               <?php dynamic_sidebar('sidebar'); ?>
             <?php endif; ?>
-            <?php [widget] ?>
           </div>
         </div>
       </div>

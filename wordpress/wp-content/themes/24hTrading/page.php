@@ -13,6 +13,7 @@
              <?php the_title(); ?>
           </h2>
           <p class="lead"> <?php the_content(); ?> </p>
+          <?php echo do_shortcode('[stockdio-historical-chart]'); ?>
         </div>
 
         <div class="col-md-4">
