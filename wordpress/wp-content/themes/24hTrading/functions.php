@@ -27,10 +27,33 @@ add_filter('excerpt_length', 'set_excerpt_length');
 //Widgets locations
 
 function wp_init_widget($id){
+  //primary menu
   register_sidebar(array(
     'name' => 'Sidebar',
     'id' => 'sidebar',
     'before_widget' => '<div class="col-md-4">',
+    'after_widget' => '</div>'
+  ));
+
+  //featurette image widget in front page
+  register_sidebar(array(
+    'name' => 'Widget1',
+    'id' => 'widget1',
+    'before_widget' => '<div class="col-lg-4">',
+    'after_widget' => '</div>'
+  ));
+
+  register_sidebar(array(
+    'name' => 'Widget2',
+    'id' => 'widget2',
+    'before_widget' => '<div class="col-lg-4">',
+    'after_widget' => '</div>'
+  ));
+
+  register_sidebar(array(
+    'name' => 'Widget3',
+    'id' => 'widget3',
+    'before_widget' => '<div class="col-lg-4">',
     'after_widget' => '</div>'
   ));
 }

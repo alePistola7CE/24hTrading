@@ -35,12 +35,12 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  bottom: 3rem;
+  bottom: 9rem;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 38rem;
   background-color: #777;
 }
 .carousel-item > img {
@@ -48,7 +48,7 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
+  height: 38rem;
   opacity: 0.80;
 }
 
@@ -286,6 +286,7 @@ input[type="submit"]{
   padding: 5px 10px 5px 10px;
   color: black;
   border: 1px solid #ccc;
+  background-color: whitesmoke;
 }
 
 .commentlist{

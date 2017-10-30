@@ -2,7 +2,6 @@
 
 
       <!-- START THE FEATURETTES -->
-      <hr class="featurette-divider">
       <?php if(have_posts()) : ?>
 
         <?php while(have_posts()) : the_post(); ?>

@@ -96,25 +96,3 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="<?php bloginfo('template_directory');?>/img/startup.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Strategie</h2>
-          <p>Prima di aprire un conto di trading sarebbe bene decidere quali obiettivi si vogliono ottenere col trading e quali rischi si è disposti a correre. Guadagnare 50 euro al giorno (che fanno comunque 1.500 "eurini" al mese…) oppure trasformare questa attività in una vera e propria professione? E che capitale si può rischiare di perdere?</p>
-          <p><a class="btn btn-secondary" href="#" role="button">Strategie &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="<?php bloginfo('template_directory');?>/img/uomo.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Affiliazioni</h2>
-          <p>In pratica questo sistema prevede che chiunque possa diventare un rivenditore dei prodotti (insomma: un affiliato), percependo così un compenso in denaro su ogni vendita effettuata grazie a lui. In genere per diventare affiliato basta semplicemente iscriversi a un programma di affiliazione, prelevare i link e i banner che sponsorizzano i prodotti e inserirli nel proprio sito internet.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">Unisciti a noi &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="<?php bloginfo('template_directory');?>/img/bitcoin.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Criptovalute</h2>
-          <p>Una criptovaluta (o crittovaluta o criptomoneta) è una valuta paritaria, decentralizzata digitale la cui implementazione si basa sui principi della crittografia per convalidare le transazioni e la generazione di moneta in sé. Come ogni valuta digitale, consente di effettuare pagamenti online in maniera sicura.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">Altro su criptovalute &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
