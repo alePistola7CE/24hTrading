@@ -67,17 +67,6 @@ body {
   margin-top: 25px;
 }
 
-/* h2 title for smartphone view */
-@media screen and (max-width: 500px){
-  .marketing h2{
-    text-align: center;
-    font-weight: bold;
-    margin-top: 0px;
-    margin-bottom: 50px;
-  }
-}
-
-
 
 .marketing .col-lg-4 p {
   margin-right: .75rem;
@@ -135,11 +124,6 @@ body {
   margin: 5px 40px 5px 40px;
 }
 
-@media screen and (max-width: 500px){
-  .collapse{
-    margin: 0px 0px 0px 0px;
-  }
-}
 
 .nav-item{
   margin: auto 10px;
@@ -170,22 +154,6 @@ li a:hover{
   margin-left: 20px;
 }
 
-/* smartphone view */
-@media screen and (max-width: 500px){
-  .logo-img{
-    display: none;
-  }
-
-  .brand{
-    text-align: center;
-    margin: auto;
-  }
-
-  .navbar{
-    text-align: center;
-  }
-
-}
 
 /* FEATURETTE STYLE */
 
@@ -210,7 +178,7 @@ li a:hover{
 .col-md-8 > p {
   color: #5a5a5a;
   box-sizing: inherit;
-  margin-top: 10px;
+  margin-top: 40px;
   margin-bottom: 1rem;
   font-size: 1.25rem;
   font-weight: 300;
@@ -249,13 +217,14 @@ li a:hover{
   border-radius: 15px;
 }
 
-/* thumb img for smartphone view */
-@media screen and (max-width: 500px){
-.thumb img{
-  margin-top: 30px;
+.page{
+  margin-top: 115px;
 }
 
+.article{
+  margin-top: 20px;
 }
+
 
 /* style for the chart in page.php */
 iframe {
@@ -330,37 +299,6 @@ input[type="submit"]{
   padding-left: 0px;
 }
 
-@media screen and (max-width:500px){
-  label, input[type="text"], textarea, input[type="submit"]{
-    display: block;
-    margin: 5px auto;
-    text-align: center;
-  }
-  input[type="text"]{
-    width: 75%;
-    margin-bottom: 20px;
-  }
-  input[type="submit"]{
-    width: 50%;
-    margin-top:55px;
-  }
-  textarea{
-    width: 90%;
-  }
-  .comment-notes{
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  .comment-reply-title{
-    margin-bottom: 20px;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  #comments{
-    text-align: center;
-    font-size: 2.0rem;
-  }
-}
 
 /* SIDEBAR WIDGET STYLE */
 
@@ -393,16 +331,182 @@ h2.widgettitle{
 }
 
 
-@media (min-width: 768px){
-  .col-md-4 {
-    max-width: none;
-  }
-}
-
 .contenitore_sidebar > .col-md-4 {
   border-left-color:grey;
   border-left-style: solid;
   border-radius: 12px;
   border-left-width: 1.5px;
   background: linear-gradient(to bottom right, rgba(236, 240, 241,0.2), rgba(236, 240, 241,0.0)); /* Standard syntax */
+}
+
+
+
+
+/* SMMMMMAAAAARRRRTTTTPPPPHHHHOOOONNNNNEEEE view */
+
+/* h2 title for smartphone view */
+@media screen and (max-width: 500px){
+  .marketing h2{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+
+  .collapse{
+    margin: 0px 0px 0px 0px;
+  }
+
+  /*----navbar ---- */
+  .logo-img{
+    height: 40px;
+  }
+
+  .brand{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: auto;
+    font-size: 27px;
+  }
+
+  .navbar{
+    text-align: center;
+  }
+
+  #menu-navigazione{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .menu-item > a{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 30px;
+  }
+
+  .dropdown-menu{
+    border: none;
+    text-align: center;
+  }
+
+
+  .dropdown-menu > li > a{
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 8px;
+    margin: 8px;
+
+  }
+
+  /* showcase */
+
+  .carousel-caption {
+    bottom: 6rem;
+  }
+
+  .carousel-caption > h1, .carousel-caption > p {
+    text-align: center;
+  }
+
+  .third-slide{
+    left: -550px !important;
+  }
+
+  .textwidget > h2{
+    margin-bottom: 5px;
+  }
+
+  p:last-child{
+    margin-bottom: 30px;
+  }
+
+  /* footer */
+  footer > p{
+    font-size: 14px;
+  }
+
+  footer > p:last-child{
+    font-size: 16px;
+  }
+
+  /* page style */
+  .featurette-heading{
+    font-size: 35px;
+  }
+
+  .col-md-8 > p{
+    text-align: center;
+  }
+
+  /* Article style */
+
+  .meta-data-post{
+    text-align: center;
+    margin-top: -25px;
+  }
+
+  .contenitore_sidebar{
+    display: block;
+    position: static;
+  }
+
+  .widgettitle{
+    margin-bottom: 15px !important;
+  }
+
+  .contenitore_sidebar > .col-md-4{
+    border: none;
+    text-align: center;
+    background: transparent;
+  }
+
+  .contenitore_sidebar > .col-md-4 > ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+
+  .thumb img{
+    margin-top: 30px;
+  }
+
+  label, input[type="text"], textarea, input[type="submit"]{
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+  }
+  input[type="text"]{
+    width: 75%;
+    margin-bottom: 20px;
+  }
+  input[type="submit"]{
+    width: 55%;
+    margin-top:55px;
+  }
+  textarea{
+    width: 90%;
+  }
+  .comment-notes{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .comment-reply-title{
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  #comments{
+    text-align: center;
+    font-size: 2.0rem;
+  }
+
+  .col-md-4 {
+    max-width: none;
+  }
+
+
 }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="<?php bloginfo('description'); ?>">
     <meta name="author" content="Alessandro Pistola">
-    <link rel="icon" href="../../../../favicon.ico">
+    <link rel="icon" href="<?php bloginfo('template_directory');?>/img/icon.png">
 
     <title>
       <?php bloginfo('name'); ?> |

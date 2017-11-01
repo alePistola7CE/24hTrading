@@ -21,7 +21,7 @@
               <?php the_post_thumbnail(); ?>
             </div>
             <?php else: ?>
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x450/auto" alt="Banner">
+            <img class="featurette-image page img-fluid mx-auto" data-src="holder.js/500x450/auto" alt="Banner">
           <?php endif; ?>
         </div>
       </div>

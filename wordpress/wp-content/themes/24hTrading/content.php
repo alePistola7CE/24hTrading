@@ -13,11 +13,11 @@
         </a>
       </span>
       <?php if(has_post_thumbnail()) : ?>
-        <div class="thumb">
+        <div class="thumb article">
           <?php the_post_thumbnail(); ?>
         </div>
         <?php else: ?>
-        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x450/auto" alt="Banner">
+        <img class="featurette-image article img-fluid mx-auto" data-src="holder.js/500x450/auto" alt="Banner">
       <?php endif; ?>
       <p class="lead"> <?php the_content(); ?> </p>
     </div>
