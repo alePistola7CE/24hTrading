@@ -61,4 +61,7 @@ function wp_init_widget($id){
 add_action('widgets_init', 'wp_init_widget');
 
 
+//customizer file
+require get_template_directory() .'/inc/customizer.php';
+
 ?>

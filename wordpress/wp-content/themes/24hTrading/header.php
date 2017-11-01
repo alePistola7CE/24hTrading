@@ -18,6 +18,8 @@
     <!-- Custom styles for this template -->
     <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
     <?php wp_head(); ?>
+
+
   </head>
   <body>
 
@@ -50,12 +52,12 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="first-slide" src="<?php bloginfo('template_directory');?>/img/trading.jpg" alt="First slide">
+          <img class="first-slide" src="<?php bloginfo('template_directory');?>/img/trading.jpg" style="height:38rem;" alt="First slide">
           <div class="container">
             <div class="carousel-caption d-md-block text-left">
-              <h1>Cos'è 24hTrading</h1>
-              <p>24hTrading è una guida completa al trading che nasce dall’esperienza di un gruppo di appassionati di finanza con l’obiettivo di condividere la nostra conoscenza a proposito di broker, tecniche, strategie vincenti e trucchi: vogliamo che il trading sia profittevole per tutti!</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Inizia ora!</a></p>
+              <h1><?php echo get_theme_mod("showcase_heading", "Cos'è 24hTrading"); ?></h1>
+              <p><?php echo get_theme_mod("showcase_subtext", "24hTrading è una guida completa al trading che nasce dall’esperienza di un gruppo di appassionati di finanza con l’obiettivo di condividere la nostra conoscenza a proposito di broker, tecniche, strategie vincenti e trucchi: vogliamo che il trading sia profittevole per tutti!"); ?></p>
+              <p><a class="btn btn-lg btn-primary" href="<?php echo get_theme_mod('btn_url', 'http://localhost/24hTrading/wordpress/come-iniziare/'); ?>" role="button"><?php echo get_theme_mod('btn_text', 'Inizia ora!'); ?></a></p>
             </div>
           </div>
         </div>
@@ -63,9 +65,9 @@
           <img class="second-slide" src="<?php bloginfo('template_directory');?>/img/grafici.jpg" style="opacity:0.40;" alt="Third slide">
           <div class="container">
             <div class="carousel-caption d-md-block text-right">
-              <h1>Cos'è il trading online?</h1>
-              <p>Il trading online consiste nel cercare di ottenere un guadagno in base alle oscillazioni dei mercati finanziari. Operare sui mercati finanziari può portare elevati rendimenti a patto di utilizzare strumenti, tecniche e strategie adeguate.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Scopri come!</a></p>
+              <h1><?php echo get_theme_mod("showcase_heading2", "Cos'è il trading online?"); ?></h1>
+              <p><?php echo get_theme_mod("showcase_subtext2", "Il trading online consiste nel cercare di ottenere un guadagno in base alle oscillazioni dei mercati finanziari. Operare sui mercati finanziari può portare elevati rendimenti a patto di utilizzare strumenti, tecniche e strategie adeguate."); ?></p>
+              <p><a class="btn btn-lg btn-primary" href="<?php echo get_theme_mod('btn_url2', 'http://localhost/24hTrading/wordpress/come-iniziare/'); ?>" role="button"><?php echo get_theme_mod('btn_text', 'Scopri come!'); ?></a></p>
             </div>
           </div>
         </div>
@@ -73,9 +75,9 @@
           <img class="third-slide" src="<?php bloginfo('template_directory');?>/img/busman.jpg" style="opacity:0.60;" alt="Second slide">
           <div class="container">
             <div class="carousel-caption d-md-block">
-              <h1>Come iniziare adesso</h1>
-              <p>Se vuoi cominciare a fare trading, ti consigliamo di iniziare creando un conto su questa piattaforma che prevede solo 10€ per l’apertura di un conto di trading. Potrai così iniziare a fare pratica davvero con dei capitali molto bassi. Avrai anche a disposizione un conto demo completamente gratuito.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Inizia subito</a></p>
+              <h1><?php echo get_theme_mod("showcase_heading3", "Come iniziare adesso"); ?></h1>
+              <p><?php echo get_theme_mod("showcase_subtext3", "Se vuoi cominciare a fare trading, ti consigliamo di iniziare creando un conto su questa piattaforma che prevede solo 10€ per l’apertura di un conto di trading. Potrai così iniziare a fare pratica davvero con dei capitali molto bassi. Avrai anche a disposizione un conto demo completamente gratuito."); ?></p>
+              <p><a class="btn btn-lg btn-primary" href="<?php echo get_theme_mod('btn_url3', 'http://localhost/24hTrading/wordpress/come-iniziare/'); ?>" role="button"><?php echo get_theme_mod('btn_text', 'Inizia subito'); ?></a></p>
             </div>
           </div>
         </div>
@@ -89,7 +91,16 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    <script type="text/javascript">
+      first_slide = document.getElementsByClassName('first-slide')[0];
+      first_slide.src = "<?php echo get_theme_mod('showcase_image', get_bloginfo('template_url').'/img/trading.jpg'); ?>";
 
+      second_slide = document.getElementsByClassName('second-slide')[0];
+      second_slide.src = "<?php echo get_theme_mod('showcase_image2', get_bloginfo('template_url').'/img/grafici.jpg'); ?>";
+
+      third_slide = document.getElementsByClassName('third-slide')[0];
+      third_slide.src = "<?php echo get_theme_mod('showcase_image3', get_bloginfo('template_url').'/img/busman.jpg'); ?>";
+    </script>
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
