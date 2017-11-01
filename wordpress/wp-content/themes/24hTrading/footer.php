@@ -1,7 +1,7 @@
 <!-- FOOTER -->
 <footer>
   <p class="float-right"><a href="#">Back to top</a></p>
-  <p>&copy; <?php echo Date('Y');?> <?php bloginfo('name');?> &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  <p>&copy; <?php echo Date('Y');?> <?php bloginfo('name');?> &middot; <a href="<?php bloginfo('template_directory');?>/privacypolicy.html">Privacy</a> &middot; <a href="<?php bloginfo('template_directory');?>/privacypolicy.html">Terms</a></p>
   <p>Designed by <a target='_blank' href="http://horws-photography.hostinggratis.it">Alessandro Pistola</a>
 </footer>
 <?php wp_footer(); ?>
